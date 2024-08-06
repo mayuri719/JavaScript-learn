@@ -82,3 +82,25 @@ var splitedstring=greet.split(" ");
 console.log("splited string is :",splitedstring);
 console.log("Total number of words:",splitedstring.length);
 
+console.log("================ String Template=================");
+
+console.log(`I love "Javascript"`);
+
+console.log("================Arithmetic Operators=================");
+
+
+var n1=10 , n2= 5;
+var addtion=n1+n2;
+console.log(`Addition is : ${addtion}`);
+
+var subtraction=n1-n2;
+console.log(`subtraction is : ${subtraction}`);
+
+var division=n1/n2;
+console.log(`Division is : ${division}`);
+
+var modulus=n1%n2;
+console.log(`modulus is : ${modulus}`);
+
+var exponenial=n1**n2;
+console.log(`power is : ${exponenial}`);

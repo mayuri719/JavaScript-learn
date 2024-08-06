@@ -1,0 +1,18 @@
+var x=4
+var y=2; //= assignment operator
+var z=50;
+var n1=50;
+var n2="50";
+x=y;
+console.log(`value of x is : ${x}`);
+x=y=z;
+console.log(`value of x=${x}`);
+
+x+=4;  // Compound Addition
+console.log("updated value of x is :",x);
+
+
+console.log(n1==n2);// it will chech the values only 
+console.log(n1===n2);//it will check datatype also thts why retrun false
+
+console.log(x!=y);
