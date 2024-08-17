@@ -25,3 +25,17 @@ i] if we wnt to create a new array from existing array we use spread op.
 ii] concat the array using  spread operator
 
 
+object :
+
+if we declare the object as a constant then we cant make the same object . but we can chnage or add any new key-values pair to that object.
+
+object.freeze() :
+
+In this method we can't chnage the key-values pair of object .
+
+object.assign() :
+
+if we want to clone the object we can use assign metod 
+or we want to copy one object into another object we can use assign method .
+
+suppose if we have a three objects emp1 , emp2, emp3 in this case if we want to copy emp 3 content 
