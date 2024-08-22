@@ -7,6 +7,8 @@ class Student{
         this.city = city;
     }
     //Member Function
+
+  
 }
 
 const std1 = new Student("Sid Gates", 2024, "Clg-one", "Pune");

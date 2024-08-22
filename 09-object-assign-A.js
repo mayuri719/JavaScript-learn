@@ -30,6 +30,12 @@ var lastelement=professor.degrees.certificates[professor.degrees.certificates.le
 console.log("Calculating last element of array : ",lastelement);
 
 console.log("==========================================================================================================================================");
+professor["subject"]="Mathematics";
+console.log("new added value using bracket :",professor);
+
+
+
+console.log("==========================================================================================================================================");
 
 for (const key in professor) {
     if (Object.prototype.hasOwnProperty.call(professor, key)) {

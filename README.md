@@ -25,7 +25,32 @@ i] if we wnt to create a new array from existing array we use spread op.
 ii] concat the array using  spread operator
 
 
-object :
+###########object :##########################
+
+object is an non premitive dataype which stroes the data in the form of key and value pair.
+
+3 ways to create an object
+         1      2             3
+        /       \              \ 
+       /         \              \
+      /           \              \
+ Using object    Using class    Using function 
+ literals                       constructor
+
+Syntax :
+
+let ObjectName={
+    property1:Value1,
+    property2:Value2,
+    property3:Value3,
+    .....
+}
+
+:: Acess the object properties :
+
+1.using dot( . ) notation
+2.using [] bracket notation
+
 
 if we declare the object as a constant then we cant make the same object . but we can chnage or add any new key-values pair to that object.
 
@@ -39,3 +64,9 @@ if we want to clone the object we can use assign metod
 or we want to copy one object into another object we can use assign method .
 
 suppose if we have a three objects emp1 , emp2, emp3 in this case if we want to copy emp 3 content 
+
+
+Constructor :
+it will initialize the object .
+constructor calls automatically when object is created.
+A class cannot have more than one constructor method.
