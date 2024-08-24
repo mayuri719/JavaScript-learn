@@ -21,4 +21,11 @@ for (let index = 90; index <=9; index=index-9) {
     
 }
     
+console.log("==========For in Loop============================================");
 
+const string="Mayuri";
+for (const i in string) {
+   
+    console.log(string[i]);
+    
+}
